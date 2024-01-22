@@ -1,0 +1,420 @@
+body {
+    user-select: none;
+  }
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Space Mono', monospace;
+}
+.centerBigConatiner{
+    width: 64%;
+    height: 687px;
+
+    gap: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.fullScreen{
+    background-color: hsl(185, 41%, 84%);
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container{
+    height: 479px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+
+    
+
+
+}
+.leftSide{
+
+    
+    margin-left: 10px;
+    width: 45%;
+    height : 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+ 
+    
+
+}
+.bill{
+    color: hsl(186, 14%, 43%);
+    font-weight: 700;
+}
+.BillInput{
+    height: 20px;
+    border-radius: 6px;
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: hsl(189, 41%, 97%)
+}
+
+.tipboxContainer{
+   
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+
+.box{
+    height: 20px;
+    padding: 10px 30px;
+    width: 65px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 6px;
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+.Custom{
+    background-color:  hsl(189, 41%, 97%);
+    color: hsl(186, 14%, 43%);
+    font-weight: 700;
+
+}
+
+
+.numberOfPeople {
+  
+    color: hsl(186, 14%, 43%);
+    font-weight: 700;
+}
+
+.PeopleInput{
+    height: 20px;
+    
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 6px;
+    gap: 20px;
+}
+.PeopleInput:hover{
+    border: 2px solid hsl(172, 67%, 45%);
+    cursor: pointer;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.flex3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.billPeople{
+    color: hsl(186, 14%, 43%);
+}
+
+
+.personInput{
+
+    background-color: hsl(189, 41%, 97%);
+    width: 80%;
+    border: 0px;
+    font-size: 24px;
+    color: hsl(183, 100%, 15%);
+    font-weight: 700;
+    text-align-last: right;
+    text-align: end;
+}
+.personInput{
+    cursor: pointer;
+    padding: 13px ;
+}
+
+input:focus {
+    outline: none;
+  }
+
+  .selectTip{
+    color: hsl(186, 14%, 43%);
+    font-weight: 700;
+  }
+
+  .BillInput:hover{
+    border: 2px solid hsl(172, 67%, 45%);
+    cursor: pointer;
+  }
+  .box:hover{
+   
+    background-color:hsl(172, 67%, 45%) ;
+  }
+
+  .Custom:hover{
+    border: 2px solid hsl(172, 67%, 45%);
+    background-color:  hsl(189, 41%, 97%);
+  }
+
+  .customInput{
+    background-color: hsl(189, 41%, 97%);
+    width: 79px;
+    border: 0px;
+    font-size: 24px;
+    color: hsl(183, 100%, 15%);
+    font-weight: 700;
+    text-align-last: right;
+    text-align: end;
+   
+   
+  }
+  .numberOfPeople{
+    display: flex;
+    justify-content: space-between;
+  }
+  .errorPerson{
+    margin-right: 20px;
+  }
+
+  .errorPerson{
+    color: rgb(206, 105, 105);
+  }
+  .bill{
+    display: flex;
+    justify-content: space-between;
+  }
+  .errorBill{
+    color: rgb(206, 105, 105);
+  }
+/* -------------------------------------- */
+
+.rightSide{
+    border: 1px solid;
+    width: 45%;
+    height : 88%;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+  
+}
+.rightdiv{
+ 
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.combineOneAndTwo{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    justify-content: space-evenly;
+    
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+ 
+    margin-top: 40px;
+}
+.div1one{
+   
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div1two{
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px ;
+
+
+    
+}
+.div2one{
+    
+    width: 80px;
+    height: 50px;
+    text-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div2two{
+    
+    display: flex;
+    gap: 5px ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.div2{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.whitecol {
+    color: white;
+    font-weight: 700;
+}
+.greycol{
+    color:  hsl(186, 14%, 43%);
+    font-weight: 600;
+}
+button{
+    padding: 5px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(172, 67%, 45%);
+    border: 0px solid;
+    border-radius: 6px;
+}
+button:hover{
+    cursor: pointer;
+}
+.h1, .h2{
+    font-size: 45px;
+
+    color: hsl(172, 67%, 45%);
+}
+
+.div2two img{
+    margin-top: 5px;
+    height: 26px;
+    width: 20px;
+    
+}
+
+.div1two img{
+    margin-top: 5px;
+    height: 27px;
+    width: 20px;
+    
+}
+
+
+
+                    /*        MEDIA QUERY                */
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+
+@media (max-width: 375px) {
+
+    
+.fullScreen{
+
+  
+    height: 100%;
+    width: 375px;
+   justify-content: start;
+
+    
+
+}
+/* .centerBigConatiner{
+    align-items: center;
+   
+    width: 100%;
+    gap: 0px;
+    height: 125vh;
+    justify-content: space-evenly;
+    
+  
+
+} */
+
+.centerBigConatiner {
+    align-items: center;
+    width: 100%;
+    gap: 28px;
+    height: 120vh;
+    justify-content: end;
+}
+.container{
+    flex-direction: column;
+
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 100%;
+    height: 104vh;
+ 
+    justify-content: space space-evenly;
+    align-items: center;
+
+    
+}
+
+.rightSide{
+    width: 90%;
+    height: 38%;
+   
+
+}
+
+.leftSide{
+    width: 90%;
+    height: 40%;
+    
+}
+.BillInput,.PeopleInput{
+    width: 83%;
+}
+
+.box{
+    width: 93px;
+}
+
+.h1, .h2 {
+    font-size: 35px;
+   
+}
+}
