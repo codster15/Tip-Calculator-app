@@ -1,7 +1,7 @@
 # Tip Calculator App 💰
 
 This Tip Calculator App is a simple yet powerful tool designed to quickly calculate tips and total amounts per person for any bill. It's perfect for use in restaurants, bars, or any situation where you need to split a bill.
-## Project live ->  [Click here](https://codster15.github.io/Calculator-app/)
+## Project live ->  [Click here](https://codster15.github.io/Tip-Calculator-app/)
 ## Features 🌟
 
 - **Bill Input** 💵: Enter the total bill amount.
