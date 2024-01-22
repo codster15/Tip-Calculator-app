@@ -45,6 +45,6 @@ The Tip Calculator App is a handy tool for quickly figuring out how much to tip 
 
 
 ## Screen short
-![87](https://github.com/codster15/Tip-Calculator-app/assets/127374043/5b391ca8-f803-4f90-9a5e-99d05a1b4887)
 ![86](https://github.com/codster15/Tip-Calculator-app/assets/127374043/3421b7d5-e2f6-4675-94da-06c22305eeb2)
+![87](https://github.com/codster15/Tip-Calculator-app/assets/127374043/5b391ca8-f803-4f90-9a5e-99d05a1b4887)
 
